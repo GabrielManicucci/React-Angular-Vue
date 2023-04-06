@@ -7,8 +7,7 @@ import Home from './views/home/Home'
 function App() {
   return (
     <div className="App">
-      <Footer></Footer>
-      <Home></Home>
+      <Home msg='componente Home'></Home>
     </div>
   );
 }

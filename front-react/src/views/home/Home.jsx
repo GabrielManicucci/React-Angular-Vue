@@ -1,7 +1,12 @@
 import React from "react";
+import './Home.css'
 
-function Home() {
-  return <h1>Componete Home</h1>
+function Home(props) {
+  return (
+    <div className="Home">
+      <h1>{ props.msg }</h1>
+    </div>
+  ) 
 }
 
 export default Home;
